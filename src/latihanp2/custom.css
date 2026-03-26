@@ -1,0 +1,93 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header utama */
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+/* Label info */
+.info-label {
+    font-weight: bold;
+    display: inline-block;
+    min-width: 140px;
+    color: #555;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 4px 0;
+    font-size: 15px;
+}
+
+/* Badge skill */
+.skill-badge {
+    display: inline-block;
+    background-color: #e8f0fe;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    margin: 3px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+}
+
+/* Greeting */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #888;
+    margin-top: 5px;
+}
