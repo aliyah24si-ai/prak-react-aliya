@@ -3,7 +3,7 @@ import TailwindCSS from "./TailwindCSS";
 import "./tailwind.css";
 import Typography from "./typography";
 import FlexboxGrid from "./FlexBoardGrid";
-import UserForm from "./Userform";
+import UserForm from "./UserForm";
 import HitungGajiForm from "./HitungGajiForm";
 
 createRoot(document.getElementById("root")).render(
@@ -13,6 +13,5 @@ createRoot(document.getElementById("root")).render(
     <FlexboxGrid />
     <UserForm /> */}
     <HitungGajiForm />
-
   </div>
 );
