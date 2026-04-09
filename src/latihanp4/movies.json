@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "judul": "Inception",
+    "tahun": 2010,
+    "sutradara": "Christopher Nolan",
+    "rating": 8.8,
+    "gambar": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "detail": {
+      "durasi": "148 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"]
+  },
+  {
+    "id": 2,
+    "judul": "The Dark Knight",
+    "tahun": 2008,
+    "sutradara": "Christopher Nolan",
+    "rating": 9.0,
+    "gambar": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "genre": ["Action", "Drama", "Thriller"],
+    "detail": {
+      "durasi": "152 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
+  },
+  {
+    "id": 3,
+    "judul": "Interstellar",
+    "tahun": 2014,
+    "sutradara": "Christopher Nolan",
+    "rating": 8.6,
+    "gambar": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "genre": ["Sci-Fi", "Drama"],
+    "detail": {
+      "durasi": "169 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+  },
+  {
+    "id": 4,
+    "judul": "Parasite",
+    "tahun": 2019,
+    "sutradara": "Bong Joon-ho",
+    "rating": 8.5,
+    "gambar": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "genre": ["Drama", "Thriller", "Comedy"],
+    "detail": {
+      "durasi": "132 menit",
+      "negara": "Korea Selatan",
+      "bahasa": "Korea"
+    },
+    "pemeran": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"]
+  },
+  {
+    "id": 5,
+    "judul": "The Avengers",
+    "tahun": 2012,
+    "sutradara": "Joss Whedon",
+    "rating": 8.0,
+    "gambar": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "genre": ["Action", "Sci-Fi"],
+    "detail": {
+      "durasi": "143 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"]
+  },
+  {
+    "id": 6,
+    "judul": "La La Land",
+    "tahun": 2016,
+    "sutradara": "Damien Chazelle",
+    "rating": 8.0,
+    "gambar": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
+    "genre": ["Drama", "Comedy", "Romance"],
+    "detail": {
+      "durasi": "128 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Ryan Gosling", "Emma Stone", "John Legend"]
+  },
+  {
+    "id": 7,
+    "judul": "Get Out",
+    "tahun": 2017,
+    "sutradara": "Jordan Peele",
+    "rating": 7.7,
+    "gambar": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+    "genre": ["Horror", "Thriller", "Drama"],
+    "detail": {
+      "durasi": "104 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Daniel Kaluuya", "Allison Williams", "Bradley Whitford"]
+  },
+  {
+    "id": 8,
+    "judul": "Spirited Away",
+    "tahun": 2001,
+    "sutradara": "Hayao Miyazaki",
+    "rating": 8.6,
+    "gambar": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "genre": ["Animation", "Drama", "Fantasy"],
+    "detail": {
+      "durasi": "125 menit",
+      "negara": "Jepang",
+      "bahasa": "Jepang"
+    },
+    "pemeran": ["Daveigh Chase", "Suzanne Pleshette", "Miyu Irino"]
+  },
+  {
+    "id": 9,
+    "judul": "Joker",
+    "tahun": 2019,
+    "sutradara": "Todd Phillips",
+    "rating": 8.4,
+    "gambar": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    "genre": ["Drama", "Thriller"],
+    "detail": {
+      "durasi": "122 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"]
+  },
+  {
+    "id": 10,
+    "judul": "Dune",
+    "tahun": 2021,
+    "sutradara": "Denis Villeneuve",
+    "rating": 8.0,
+    "gambar": "https://media.themoviedb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg",
+    "genre": ["Sci-Fi", "Action", "Drama"],
+    "detail": {
+      "durasi": "155 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac"]
+  },
+  {
+    "id": 11,
+    "judul": "Everything Everywhere All at Once",
+    "tahun": 2022,
+    "sutradara": "Daniel Kwan",
+    "rating": 7.8,
+    "gambar": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+    "genre": ["Action", "Comedy", "Sci-Fi"],
+    "detail": {
+      "durasi": "139 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Michelle Yeoh", "Ke Huy Quan", "Jamie Lee Curtis"]
+  },
+  {
+    "id": 12,
+    "judul": "The Grand Budapest Hotel",
+    "tahun": 2014,
+    "sutradara": "Wes Anderson",
+    "rating": 8.1,
+    "gambar": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+    "genre": ["Comedy", "Drama"],
+    "detail": {
+      "durasi": "99 menit",
+      "negara": "Jerman",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Ralph Fiennes", "Tony Revolori", "Saoirse Ronan"]
+  },
+  {
+    "id": 13,
+    "judul": "Mad Max: Fury Road",
+    "tahun": 2015,
+    "sutradara": "George Miller",
+    "rating": 8.1,
+    "gambar": "https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+    "genre": ["Action", "Thriller"],
+    "detail": {
+      "durasi": "120 menit",
+      "negara": "Australia",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"]
+  },
+  {
+    "id": 14,
+    "judul": "Knives Out",
+    "tahun": 2019,
+    "sutradara": "Rian Johnson",
+    "rating": 7.9,
+    "gambar": "https://image.tmdb.org/t/p/w500/pThyQovXQrws2hmkal2LGSS9Xhq.jpg",
+    "genre": ["Comedy", "Drama", "Thriller"],
+    "detail": {
+      "durasi": "130 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Daniel Craig", "Chris Evans", "Ana de Armas"]
+  },
+  {
+    "id": 15,
+    "judul": "Whiplash",
+    "tahun": 2014,
+    "sutradara": "Damien Chazelle",
+    "rating": 8.5,
+    "gambar": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "genre": ["Drama"],
+    "detail": {
+      "durasi": "107 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Miles Teller", "J.K. Simmons", "Melissa Benoist"]
+  },
+  {
+    "id": 16,
+    "judul": "Spider-Man: Into the Spider-Verse",
+    "tahun": 2018,
+    "sutradara": "Bob Persichetti",
+    "rating": 8.4,
+    "gambar": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "genre": ["Animation", "Action", "Comedy"],
+    "detail": {
+      "durasi": "117 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Shameik Moore", "Jake Johnson", "Hailee Steinfeld"]
+  },
+  {
+    "id": 17,
+    "judul": "Hereditary",
+    "tahun": 2018,
+    "sutradara": "Ari Aster",
+    "rating": 7.3,
+    "gambar": "https://image.tmdb.org/t/p/w500/p9UDgKOBCVCKqTMDMaGBMiuMnGa.jpg",
+    "genre": ["Horror", "Drama"],
+    "detail": {
+      "durasi": "127 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Toni Collette", "Alex Wolff", "Milly Shapiro"]
+  },
+  {
+    "id": 18,
+    "judul": "Coco",
+    "tahun": 2017,
+    "sutradara": "Lee Unkrich",
+    "rating": 8.4,
+    "gambar": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+    "genre": ["Animation", "Drama", "Comedy"],
+    "detail": {
+      "durasi": "105 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt"]
+  },
+  {
+    "id": 19,
+    "judul": "The Revenant",
+    "tahun": 2015,
+    "sutradara": "Alejandro G. Iñárritu",
+    "rating": 8.0,
+    "gambar": "https://image.tmdb.org/t/p/w500/ji3ecJphATlVgZNY98spFYMntho.jpg",
+    "genre": ["Action", "Drama", "Thriller"],
+    "detail": {
+      "durasi": "156 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Leonardo DiCaprio", "Tom Hardy", "Will Poulter"]
+  },
+  {
+    "id": 20,
+    "judul": "Oppenheimer",
+    "tahun": 2023,
+    "sutradara": "Christopher Nolan",
+    "rating": 8.9,
+    "gambar": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "genre": ["Drama", "Thriller"],
+    "detail": {
+      "durasi": "180 menit",
+      "negara": "USA",
+      "bahasa": "Inggris"
+    },
+    "pemeran": ["Cillian Murphy", "Emily Blunt", "Matt Damon"]
+  }
+]
