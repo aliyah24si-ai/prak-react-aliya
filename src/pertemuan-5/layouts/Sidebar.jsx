@@ -1,6 +1,17 @@
+import { useState } from "react";
 import { FaHome, FaShoppingCart, FaUsers, FaPlus, FaBox, FaChartBar } from "react-icons/fa";
 
+const menuList = [
+  { id: "dashboard", label: "Dashboard", icon: <FaHome /> },
+  { id: "orders", label: "Orders", icon: <FaShoppingCart /> },
+  { id: "customers", label: "Customers", icon: <FaUsers /> },
+  { id: "products", label: "Products", icon: <FaBox /> },
+  { id: "reports", label: "Reports", icon: <FaChartBar /> },
+];
+
 export default function Sidebar() {
+  const [activeMenu, setActiveMenu] = useState("dashboard");
+
   return (
     <div id="sidebar" className="flex min-h-screen w-72 flex-col bg-white p-10 shadow-lg">
 
@@ -17,31 +28,21 @@ export default function Sidebar() {
       {/* List Menu */}
       <div id="sidebar-menu" className="mt-10">
         <ul id="menu-list" className="space-y-3">
-          <li>
-            <div id="menu-1" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-100 hover:font-extrabold">
-              <FaHome className="mr-4 text-xl" /> Dashboard
-            </div>
-          </li>
-          <li>
-            <div id="menu-2" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-100 hover:font-extrabold">
-              <FaShoppingCart className="mr-4 text-xl" /> Orders
-            </div>
-          </li>
-          <li>
-            <div id="menu-3" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-100 hover:font-extrabold">
-              <FaUsers className="mr-4 text-xl" /> Customers
-            </div>
-          </li>
-          <li>
-            <div id="menu-4" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-100 hover:font-extrabold">
-              <FaBox className="mr-4 text-xl" /> Products
-            </div>
-          </li>
-          <li>
-            <div id="menu-5" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-100 hover:font-extrabold">
-              <FaChartBar className="mr-4 text-xl" /> Reports
-            </div>
-          </li>
+          {menuList.map((menu) => (
+            <li key={menu.id}>
+              <div
+                onClick={() => setActiveMenu(menu.id)}
+                className={`flex cursor-pointer items-center rounded-xl p-4 font-medium transition-all
+                  ${activeMenu === menu.id
+                    ? "bg-green-100 text-hijau font-extrabold"
+                    : "text-gray-600 hover:bg-green-100 hover:text-hijau hover:font-extrabold"
+                  }`}
+              >
+                <span className="mr-4 text-xl">{menu.icon}</span>
+                {menu.label}
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
 

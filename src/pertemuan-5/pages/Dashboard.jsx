@@ -52,7 +52,7 @@ export default function Dashboard() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-garis">
-                {recentOrders.map((order) => (
+               {recentOrders.map((order) => (
                   <tr key={order.id} className="hover:bg-gray-50 transition-colors">
                     <td className="py-3 font-medium text-teks">{order.id}</td>
                     <td className="py-3 text-teks-samping">{order.customer}</td>
