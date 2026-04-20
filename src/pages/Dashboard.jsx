@@ -19,17 +19,20 @@ const statusColor = {
 export default function Dashboard() {
   return (
     <div id="dashboard-container">
-      <PageHeader title="Dashboard" current="Overview" />
+      <PageHeader title="Dashboard" breadcrumb="Overview" />
+
       <div id="dashboard-grid" className="p-5 grid sm:grid-cols-2 md:grid-cols-4 gap-4">
         <StatCard icon={<FaShoppingCart />} count="75" label="Total Orders" iconBg="bg-hijau" />
         <StatCard icon={<FaTruck />} count="175" label="Total Delivered" iconBg="bg-biru" />
         <StatCard icon={<FaBan />} count="40" label="Total Canceled" iconBg="bg-merah" />
         <StatCard icon={<FaDollarSign />} count="Rp 128jt" label="Total Revenue" iconBg="bg-kuning" />
       </div>
+
       <div className="px-5 grid sm:grid-cols-2 gap-4 mb-6">
         <StatCard icon={<FaStar />} count="4.8" label="Average Rating" iconBg="bg-kuning" />
         <StatCard icon={<FaUsers />} count="320" label="Total Customers" iconBg="bg-biru" />
       </div>
+
       <div className="px-5">
         <div className="bg-white rounded-xl shadow-md p-5">
           <h3 className="text-lg font-semibold text-teks mb-4">Recent Orders</h3>

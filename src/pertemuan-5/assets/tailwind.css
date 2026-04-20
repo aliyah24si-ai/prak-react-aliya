@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400 800;
+  src: url("https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400 700;
+  src: url("https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E3b8s8yn4.woff2") format("woff2");
+}
+
 @theme {
   --font-poppins: "Poppins", sans-serif;
   --font-barlow: "Barlow", sans-serif;
