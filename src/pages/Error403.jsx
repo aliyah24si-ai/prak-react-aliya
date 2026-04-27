@@ -5,7 +5,7 @@ export default function Error403() {
     <ErrorPage
       kodeError="403"
       deskripsiError="Forbidden - Akses ditolak"
-      gambarError="https://illustrations.popsy.co/gray/crashed-error.svg"
+      gambarError="https://illustrations.popsy.co/yellow/crashed-error.svg"
     />
   );
 }

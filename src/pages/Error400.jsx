@@ -5,7 +5,7 @@ export default function Error400() {
     <ErrorPage
       kodeError="400"
       deskripsiError="Bad Request"
-      gambarError="https://illustrations.popsy.co/gray/crashed-error.svg"
+      gambarError="https://illustrations.popsy.co/blue/crashed-error.svg"
     />
   );
 }
