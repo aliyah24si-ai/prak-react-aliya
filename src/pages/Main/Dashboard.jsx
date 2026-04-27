@@ -1,6 +1,6 @@
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign, FaStar, FaUsers } from "react-icons/fa";
-import PageHeader from "../components/PageHeader";
-import StatCard from "../components/StatCard";
+import PageHeader from "../../components/PageHeader";
+import StatCard from "../../components/StatCard";
 
 const recentOrders = [
   { id: "#001", customer: "Budi Santoso", menu: "Nasi Goreng", status: "Delivered", total: "Rp 45.000" },
