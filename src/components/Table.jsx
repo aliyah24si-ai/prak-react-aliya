@@ -1,5 +1,8 @@
-export default function Table({ headers, children }) {
+import Card from "../components/Card";
+
+ export default function Table({ headers, children }) {
   return (
+    <Card>
     <div className="overflow-x-auto">
       <table className="w-full border border-gray-200">
         <thead className="bg-gray-100">
@@ -7,7 +10,7 @@ export default function Table({ headers, children }) {
             {headers.map((header, index) => (
               <th
                 key={index}
-                className="border px-4 py-3 text-left"
+                className="border border-gray-200 px-4 py-3 text-left"
               >
                 {header}
               </th>
@@ -20,5 +23,7 @@ export default function Table({ headers, children }) {
         </tbody>
       </table>
     </div>
+    </Card>
   );
 }
+
