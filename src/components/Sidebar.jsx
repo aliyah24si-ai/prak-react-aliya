@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { FaHome, FaShoppingCart, FaUsers, FaPlus, FaBox, FaChartBar, FaExclamationTriangle } from "react-icons/fa";
+import { FaFaceAngry } from "react-icons/fa6";
 
 const menuList = [
   { id: "dashboard", label: "Dashboard", icon: <FaHome />, to: "/" },
@@ -7,6 +8,8 @@ const menuList = [
   { id: "customers", label: "Customers", icon: <FaUsers />, to: "/customers" },
   { id: "products", label: "Products", icon: <FaBox />, to: "/products" },
   { id: "reports", label: "Reports", icon: <FaChartBar />, to: "/reports" },
+  { id: "components", label: "Components", icon: <FaFaceAngry />, to: "/components" },
+
 ];
 
 const errorMenuList = [
