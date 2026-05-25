@@ -16,6 +16,7 @@ const Login = React.lazy(() => import("./pages/Auth/Login"));
 const Register = React.lazy(() => import("./pages/Auth/Register"));
 const Forgot = React.lazy(() => import("./pages/Auth/Forgot"));
 const Components = React.lazy(() => import("./pages/Main/Components"));
+const FiturXyz = React.lazy(() => import("./pages/Main/FiturXyz"));
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
+          <Route path="/fitur-xyz" element={<FiturXyz />} />
           <Route path="/error-400" element={<Error400 />} />
           <Route path="/error-401" element={<Error401 />} />
           <Route path="/error-403" element={<Error403 />} />

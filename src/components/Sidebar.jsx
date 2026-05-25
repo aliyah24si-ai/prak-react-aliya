@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaHome, FaShoppingCart, FaUsers, FaPlus, FaBox, FaChartBar, FaExclamationTriangle } from "react-icons/fa";
+import { FaHome, FaShoppingCart, FaUsers, FaPlus, FaBox, FaChartBar, FaExclamationTriangle, FaBarcode, FaFile } from "react-icons/fa";
 import { FaFaceAngry } from "react-icons/fa6";
 
 const menuList = [
@@ -9,6 +9,7 @@ const menuList = [
   { id: "products", label: "Products", icon: <FaBox />, to: "/products" },
   { id: "reports", label: "Reports", icon: <FaChartBar />, to: "/reports" },
   { id: "components", label: "Components", icon: <FaFaceAngry />, to: "/components" },
+  { id: "fitur-xyz", label: "Fitur XYZ", icon: <FaFile />, to: "/fitur-xyz" },
 
 ];
 
