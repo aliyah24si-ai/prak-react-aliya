@@ -17,6 +17,7 @@ const Register = React.lazy(() => import("./pages/Auth/Register"));
 const Forgot = React.lazy(() => import("./pages/Auth/Forgot"));
 const Components = React.lazy(() => import("./pages/Main/Components"));
 const FiturXyz = React.lazy(() => import("./pages/Main/FiturXyz"));
+const Notes = React.lazy(() => import("./pages/Main/Notes"));
 
 export default function App() {
   return (
@@ -32,7 +33,9 @@ export default function App() {
           <Route path="/error-401" element={<Error401 />} />
           <Route path="/error-403" element={<Error403 />} />
           <Route path="/components" element={<Components />} />
+          <Route path="/notes" element={<Notes />} />
           <Route path="*" element={<NotFound />} />
+
         </Route>
 
       
