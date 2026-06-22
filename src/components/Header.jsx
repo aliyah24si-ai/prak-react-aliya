@@ -1,8 +1,12 @@
 import { FaBell, FaSearch } from "react-icons/fa";
 import { FcAreaChart } from "react-icons/fc";
 import { SlSettings } from "react-icons/sl";
+import { useAuth } from "../contexts/AuthContext";
 
 export default function Header() {
+  const { profile } = useAuth();
+  const displayName = profile?.full_name || profile?.email || "User";
+
   return (
     <div id="header-container" className="flex justify-between items-center p-4 bg-white shadow-sm rounded-xl mb-4">
 
@@ -35,12 +39,13 @@ export default function Header() {
         {/* Profile */}
         <div id="profile-container" className="flex items-center space-x-3 border-l pl-4 border-gray-300">
           <span id="profile-text" className="text-sm text-gray-600">
-            Hello, <b>Aliya</b>
+            Hello, <b>{displayName}</b>
           </span>
           <img
             id="profile-avatar"
             src="https://avatar.iran.liara.run/public/28"
             className="w-10 h-10 rounded-full"
+            alt={displayName}
           />
         </div>
       </div>
